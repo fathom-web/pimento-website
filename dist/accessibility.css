@@ -1,0 +1,8 @@
+.shop-short{display:none}.eyebrow,.art-label,.recipe-category,.hero-bottom,.bottle-caption,.product-spec,.footer-tag{font-size:.75rem}.filter,.search-label,.filter-label,.text-link,form label,.stockist a,.stockist p{font-size:.875rem}.zero-badge span{font-size:.75rem}
+.moment-copy,.moment-photo,.stockist{min-width:0}.moment-copy h2,.stockist h3{overflow-wrap:anywhere}.stockist-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.section-heading>div{min-width:0;max-width:100%}.section-heading h2{overflow-wrap:anywhere}
+@media(max-width:760px){.shop-full{display:none}.shop-short{display:inline}.header-shop,.menu-button{font-size:.875rem}.header-shop{padding:10px 15px}.hero-bottom{font-size:.75rem;letter-spacing:.08em}.hero-bottom .notes{gap:14px}.zero-badge span{font-size:.75rem}.recipe-category{font-size:.75rem;letter-spacing:.07em}.hero h1{letter-spacing:-.025em}.results-head{font-size:.875rem}}
+@media(max-width:370px){.header-shop{padding:10px 11px}.hero-bottom{font-size:.75rem;letter-spacing:0}.hero-bottom .notes{gap:12px}}
+@media(max-width:760px){.moment-section{grid-template-columns:minmax(0,1fr)}.stockist-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:400px){.stockist-grid{grid-template-columns:minmax(0,1fr)}.moment-copy h2{font-size:3.1rem}}
+@media(max-width:400px){.section-heading h2{font-size:2.6rem}}

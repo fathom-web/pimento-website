@@ -1,0 +1,146 @@
+[
+  {
+    "client": 305,
+    "path": "/",
+    "scroll": 305,
+    "viewport": 320
+  },
+  {
+    "client": 305,
+    "path": "/pimento/",
+    "scroll": 305,
+    "viewport": 320
+  },
+  {
+    "client": 305,
+    "path": "/recepten/",
+    "scroll": 305,
+    "viewport": 320
+  },
+  {
+    "client": 305,
+    "path": "/waar-te-koop/",
+    "scroll": 305,
+    "viewport": 320
+  },
+  {
+    "client": 305,
+    "path": "/contact/",
+    "scroll": 305,
+    "viewport": 320
+  },
+  {
+    "client": 305,
+    "path": "/recepten/italian-mule/",
+    "scroll": 305,
+    "viewport": 320
+  },
+  {
+    "client": 375,
+    "path": "/",
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "client": 375,
+    "path": "/pimento/",
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "client": 375,
+    "path": "/recepten/",
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "client": 375,
+    "path": "/waar-te-koop/",
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "client": 375,
+    "path": "/contact/",
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "client": 375,
+    "path": "/recepten/italian-mule/",
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "client": 805,
+    "path": "/",
+    "scroll": 805,
+    "viewport": 820
+  },
+  {
+    "client": 805,
+    "path": "/pimento/",
+    "scroll": 805,
+    "viewport": 820
+  },
+  {
+    "client": 805,
+    "path": "/recepten/",
+    "scroll": 805,
+    "viewport": 820
+  },
+  {
+    "client": 805,
+    "path": "/waar-te-koop/",
+    "scroll": 805,
+    "viewport": 820
+  },
+  {
+    "client": 805,
+    "path": "/contact/",
+    "scroll": 805,
+    "viewport": 820
+  },
+  {
+    "client": 805,
+    "path": "/recepten/italian-mule/",
+    "scroll": 805,
+    "viewport": 820
+  },
+  {
+    "client": 1425,
+    "path": "/",
+    "scroll": 1425,
+    "viewport": 1440
+  },
+  {
+    "client": 1425,
+    "path": "/pimento/",
+    "scroll": 1425,
+    "viewport": 1440
+  },
+  {
+    "client": 1425,
+    "path": "/recepten/",
+    "scroll": 1425,
+    "viewport": 1440
+  },
+  {
+    "client": 1425,
+    "path": "/waar-te-koop/",
+    "scroll": 1425,
+    "viewport": 1440
+  },
+  {
+    "client": 1425,
+    "path": "/contact/",
+    "scroll": 1425,
+    "viewport": 1440
+  },
+  {
+    "client": 1425,
+    "path": "/recepten/italian-mule/",
+    "scroll": 1425,
+    "viewport": 1440
+  }
+]

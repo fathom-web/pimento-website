@@ -29,8 +29,6 @@ jobs:
         run: python publish_github_pages.py /pimento-website
       - name: Configure Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:

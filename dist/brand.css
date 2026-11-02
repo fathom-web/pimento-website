@@ -1,0 +1,21 @@
+.brand {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-tagline {
+  font-size: 0.54rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  margin-top: -3px;
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  .brand-tagline {
+    font-size: 0.43rem;
+    letter-spacing: 0.08em;
+  }
+}

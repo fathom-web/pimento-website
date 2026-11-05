@@ -4,18 +4,45 @@
   flex-direction: column;
 }
 
+/* Keep the original artwork colours independent of the page background. */
+.site-header { background: #fff; }
+.brand img { mix-blend-mode: normal; }
+.hero { background: #f0f3ed; }
+.hero-visual { background: #f0f3ed; }
+.zero-badge { background: #fff; }
+
+@media (min-width: 1101px) {
+  .brand, .brand img { width: 150px; }
+}
+
 .brand-tagline {
-  font-size: 0.54rem;
+  align-self: flex-start;
+  width: 72%;
+  text-align: center;
+  font-size: 0.5rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.04em;
   line-height: 1;
-  margin-top: -3px;
+  margin-top: 6px;
   white-space: nowrap;
 }
 
 @media (max-width: 760px) {
   .brand-tagline {
-    font-size: 0.43rem;
-    letter-spacing: 0.08em;
+    font-size: 0.36rem;
+    letter-spacing: 0.02em;
   }
+}
+
+.contact-title-word { white-space: nowrap; }
+.hero-film { margin-top: 26px; font-size: .85rem; }
+
+@media (max-width: 760px) {
+  .page-lead h1:has(.contact-title-word) {
+    font-size: clamp(2.5rem, 10.5vw, 5rem);
+    overflow-wrap: normal;
+  }
+  .contact-grid, .contact-grid > div { min-width: 0; }
+  .contact-grid h2 { font-size: clamp(2.8rem, 12vw, 3.7rem); }
+  .resource-links a { flex-wrap: wrap; column-gap: 12px; font-size: clamp(1.25rem, 5.5vw, 1.625rem); }
 }

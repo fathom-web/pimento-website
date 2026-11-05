@@ -41,3 +41,11 @@ De lokaal gebruikte Google Fonts zijn Barlow Condensed (800) en DM Sans (400). D
 De inhoud van `dist/` kan door een statische webserver worden geserveerd, met directory-indexen en `404.html` als foutpagina. Deze oplevering draait lokaal; er zijn geen DNS- of productieaanpassingen gedaan. Stel bij een daadwerkelijke lancering de definitieve domeinmetadata, cacheheaders en 404-routering in. Downloads worden uitsluitend geladen wanneer de bezoeker ze opent.
 
 Elke push naar de `main`-branch publiceert de website via GitHub Pages. De workflow bouwt de site opnieuw en past de interne links aan voor `/pimento-website/`.
+
+## Feedback verwerkt op 5 november 2026
+
+De homepage heeft een lichte grijsgroene achtergrond en een witte header. Het originele logo gebruikt geen kleurmengmodus meer; de slogan staat met extra tussenruimte onder het ruitvormige beeldmerk. De contacttitel schaalt op mobiel zodat “kennismaken” één woord blijft.
+
+De zichtbare bedrijfsnaam is Uniqdrinks. De bestaande webshop-URL en het e-mailadres blijven behouden totdat vervangende adressen zijn aangeleverd. Facebook en LinkedIn gebruiken de opgegeven Nederlandse profielen. De homepage linkt naar de aangeleverde YouTube-commercial. Bij Horeca & contact staan de korte en lange Engelstalige producentpresentaties van juni 2026 als PDF-download. De lage-resolutie-artworks zijn niet als websitebeelden gebruikt.
+
+Controle: alle 119 HTML-bestanden via `audit/validate.py`; 28 browserweergaven op 320, 360, 390, 760, 768, 1024 en 1440 pixels via `audit/feedback-2026/check.cjs`, inclusief mobiele contactnavigatie en beide PDF-downloads. Screenshots en resultaten staan in `audit/feedback-2026/`. Font-URL’s zijn relatief aan de stylesheet zodat ze ook onder het GitHub Pages-projectpad laden.
